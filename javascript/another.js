@@ -51,7 +51,7 @@ let ba=()=>
 
                 string_name=name;
                 console.log(string_name);
-                location.replace(`Hashtag.html?myid=${string_name}`);  
+                location.replace(`index.html?myid=${string_name}`);  
          });
 
 };

@@ -9,8 +9,8 @@ let a=()=>
                 if(tag_name === "A")
                 {
                     string_name=elm1.getAttribute("id")+"";
-                    console.log(string_name);
-                    location.replace(`Hashtag.html?myid=${string_name}`);      
+                   // console.log(string_name);
+                    location.replace(`index.html?myid=${string_name}`);      
                 }
                 
            });
