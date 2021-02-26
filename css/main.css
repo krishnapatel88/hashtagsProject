@@ -1,0 +1,173 @@
+
+.bb-color
+{
+     background-image: linear-gradient(23deg,white,rgb(168, 232, 243));
+}
+.bb-nav
+{
+     background-image: linear-gradient(280deg,rgb(36, 30, 30),rgb(0, 0, 0));
+}
+.mybutton
+{
+     padding: 10px;
+     color: rgb(0, 0, 0);
+     background-color: rgb(255, 255, 255);
+     box-shadow:  3px 3px 8px rgba(32, 31, 31, 0.705),
+                          -4px -4px 4px rgb(240, 240, 239);
+}
+.mylab
+{
+     margin-top: 10vh;
+}
+
+/* ================================== */
+.tag-container 
+{
+     background-color: rgb(235, 235, 235);
+     border: 10px solid rgb(0, 0, 0);
+     box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.754),
+                          -2px -2px 5px  rgba(0, 247, 255, 0.856),
+                          inset  2px 2px 10px  rgb(255, 254, 254),
+                          inset -2px -2px 7px  rgba(0, 0, 0, 0.747);
+     padding: 5px 10px 5px 10px;
+     border-radius: 5px;
+}
+@media (min-width:900px)
+{
+     .tag-container
+     { 
+            width: 80%;
+            padding-right: 10px;
+      }
+}
+@media (min-width:450px)
+{
+     .tag-container
+     { 
+          width: 80%;
+          padding-right: 10px;
+      }
+}
+.tag-container p
+{
+    text-align: justify;
+}
+
+/* ================----------------------=====================--------------- */
+.hero-content
+{
+  background-color: rgb(248, 244, 224);
+  padding-top: 90px;
+  padding-bottom: 8px;
+  width: 100%;
+}
+.mypadding
+{
+     padding-bottom: 10px;
+}
+table tbody tr , a
+{
+     color: black;
+     font-weight: 700;
+     text-decoration: none;
+}
+table td a:hover
+{
+      color: rgb(255, 255, 255);
+}
+/* ================search.html page */
+.my-padding
+{
+     padding: 90px;
+     margin-top:60px;
+     margin-bottom: 10px;
+     background-image: url("../images/pexels-scott-webb-430205.jpg");
+     background-size: cover;
+     background-position: center;
+}
+
+.search-bar
+{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.main_search
+{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.main_search input
+{
+     width: 500px;
+     height: 55px;
+     border: none;
+     border-radius: 5px 0px 0px 5px;
+     outline: none;
+     font-size: 20px;
+}
+.main_search h2
+{
+     color: rgb(229, 255, 0);
+     background-color: rgba(39, 34, 34, 0.411);
+}
+.main_search i
+{
+     height: 55px;
+     width: 70px;
+     font-size: 35px;
+     color: white;
+     background-color: rgb(0, 0, 0);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 0px 5px 5px 0px;
+}
+
+.search-shadow
+{
+     box-shadow: 2px 2px 2px  rgba(173, 173, 173, 0.754),
+                          -2px -2px 5px  rgba(10, 9, 9, 0.384);
+}
+.search-shadow1
+{
+     box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.754),
+                          -2px -2px 5px  rgb(255, 255, 255);
+}
+@media (max-width:460px)
+{
+         .my-padding
+         {  
+              background-image: url("../images/pexels-cottonbro-4629633.jpg");
+         }   
+         .main_search h2
+         {
+               color: rgb(229, 255, 0);
+               background-color:rgba(255, 255, 255, 0);
+         } 
+}
+/* ========================== */
+
+.my-padding1
+{
+     padding: 10px;
+     margin-top:10px;
+     margin-bottom: 5px;
+     background-image: url("../images/pexels-cottonbro-4629633.jpg");
+     background-size: cover;
+     background-position: center;
+}
+.hero-content1
+{
+  background-color: rgb(248, 244, 224);
+}
+.my-padding1
+{
+     padding: 90px;
+     margin-top: -10px;
+     margin-bottom: 10px;
+     background-image: url("../images/pexels-scott-webb-430205.jpg")
+     background-size: cover;
+     background-position: center;
+}
